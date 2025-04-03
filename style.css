@@ -1,0 +1,380 @@
+/* General body styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0e1b35;
+  width: 100%;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(53, 25, 71);
+  position: sticky;
+  top: 0%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+/* Navigation bar links */
+.navbar a {
+  color: rgb(250, 250, 252);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #00adb5;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+}
+
+.brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  background: linear-gradient(to right, #0213fc, #ecd596);
+  background-clip: text;
+  color: transparent;
+  font-style: oblique;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 800;
+  background: linear-gradient(to right, hwb(215 26% 16%), #fa94c6);
+  background-clip: text;
+  color: transparent;
+}
+
+span {
+  color: #00adb5;
+  font-size: 100px;
+  font-weight: 800;
+  background: linear-gradient(to right, #0168f8, #836875);
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hero section styles */
+#Hero-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+/* About section styles */
+.About-session {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #fbfcfd;
+  font-size: 30px;
+  font-weight: 300;
+  color: #eea0f5;
+}
+
+.para1 {
+  color: #e2dfd5;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+p,
+.Li-one {
+  color: #fbfcfd;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  color: #e2dfd5;
+}
+
+.Li-one {
+  list-style: square;
+}
+
+.Li-one li {
+  color: #e2dfd5;
+}
+
+.Li-one li::marker {
+  color: #e2dfd5;
+}
+
+/* Style for project links */
+.About-session ul li a {
+  color: rgb(109, 77, 250);
+  text-decoration: none;
+  margin-top: 1em;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-color: rgba(252, 135, 135, 0.034);
+
+  /* Add a subtle background color */
+  transition: all 0.3s ease-in-out;
+  font-style: italic;
+}
+.project {
+  color: #0584fa;
+  padding-left: 40px;
+  font-size: 22px;
+}
+.my-cv {
+  color: #0213fc;
+  background-color: #e2dfd5;
+}
+.About-session ul li a:hover {
+  color: #b54200;
+  text-decoration: underline;
+  background-color: #11110b;
+  color: pink;
+  border: none;
+}
+
+/* Contact section styles */
+.contact-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 20px;
+  margin-bottom: 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ccc;
+}
+
+h2 {
+  text-align: center;
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 800px;
+}
+button {
+  background-color: #6dc6ce;
+  color: rgb(250, 248, 248);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-1 {
+  list-style-type: none;
+  background: #ccc;
+  color: #0213fc;
+  margin: auto;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #4a4985;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.span-2 {
+  color: #00adb5;
+  font-size: 30px;
+  font-weight: 850;
+  background: linear-gradient(to right, #0168f8, #836875);
+  background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(53, 25, 71);
+  padding: 20px;
+}
+
+.footer-1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  background: linear-gradient(to right, #0213fc, #ecd596);
+  background-clip: text;
+  color: transparent;
+  font-style: oblique;
+}
+
+/* styles for responsiveness */
+.responsive-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar .links {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar.active .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .navbar .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Hero-page,
+  .About-session,
+  .contact-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project {
+    font-size: 22px;
+    background-color: #ccc;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar .links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(53, 25, 71);
+  }
+
+  .navbar.active .links {
+    display: flex;
+  }
+
+  .navbar .links a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-1 {
+    padding: 15px;
+  }
+
+  .About-session {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .navbar .brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar .links a {
+    font-size: 0.9rem;
+  }
+
+  .contact-1 {
+    padding: 10px;
+  }
+
+  .About-session {
+    padding: 10px;
+  }
+}
+
+/* Contact section image styles */
+.contact-1 img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
